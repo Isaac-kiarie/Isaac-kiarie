@@ -1,0 +1,168 @@
+/*h3{
+    font-size: 2em;
+    text-align: center;
+}
+body{
+    background-color: skyblue;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    border: 2px white solid;
+}
+li a{
+    display: block;
+    width: 200px;
+    background-color: #dddddd;
+    padding: 8px 6px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px black solid;
+    border-radius: 32px;
+}
+li a:hover{
+    background-color: #555;
+    color: #fff;
+} 
+a{
+    background-color: hotpink;
+    border: 2px #fff solid;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 32px;
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+   background-color:;
+}
+a:active{
+    background-color: blueviolet;
+}
+a:hover{
+    background-color: royalblue;
+    color: #fff;
+}
+#overflow{
+    background: #4caf50;
+    color: #fff;
+    padding: 15px;
+    width: 50%;
+    height: 50px;
+    overflow:scroll;
+    border: 1px solid #ccc;
+}
+img{
+    float: left;
+    width: 25%;
+    padding: 5px;
+    display: flex;
+}
+#one{
+    height: 292px;
+    opacity: 0.5;
+}
+#one:hover{
+    opacity: 1.0;
+}
+#two{
+    opacity: 0.5;
+}
+#two:hover{
+    opacity: 1.0;
+}
+#three{
+    opacity: 0.5;
+}
+#three:hover{
+    opacity: 1.0;
+}*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    list-style: none;
+    background: maroon;
+    opacity: 0.8;
+    justify-content: space-around;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    font-weight: 30px;
+    text-decoration: none;
+    font-style: oblique;
+    text-align: center;
+    font-size: 16px;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+    background: #22438c;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    color: white;
+    cursor: pointer;
+    background: #0d45be;
+    font-size: 16px;
+    transition: 0.1s;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+#styling{
+    border-radius: 10px;
+    background-color: rgb(237, 233, 240);
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+}
+
+input[type="text"]{
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: solid;
+    font-size: 16px;
+    margin: 7px;
+}
+select[ id="country"]{
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 7px;
+    width: 200px;
+}
+input[type="submit"]{
+    padding: 10px;
+    margin: 6px;
+    width: 200px;
+    background: rgb(20, 235, 20);
+    border-radius: 12px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: rgb(17, 17, 221);
+    color: #fff;
+}
